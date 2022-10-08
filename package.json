@@ -1,0 +1,20 @@
+{
+  "name": "lol-token-refresh",
+  "version": "1.0.0",
+  "description": "web scraper for refresh riot api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "author": "Vidal Lera",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^18.10.0",
+    "puppeteer": "^18.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
