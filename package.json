@@ -15,6 +15,10 @@
     "puppeteer": "^18.2.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": ["standard"]
   }
 }
