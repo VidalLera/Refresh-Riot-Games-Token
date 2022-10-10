@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "test",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Vidal Lera",
   "license": "ISC",

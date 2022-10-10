@@ -12,6 +12,7 @@ export const logError = (...args) => {
   const ICON = ' 🟥 '
   log(FgRed, ICON, ...args, ICON)
 }
+
 // console styles
 // style
 const Reset = '\x1b[0m'
