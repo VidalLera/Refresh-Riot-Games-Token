@@ -3,22 +3,25 @@
   "version": "1.0.0",
   "description": "web scraper for refresh riot api",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "test",
-    "start": "node index.mjs",
-    "dev": "nodemon index.mjs"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Vidal Lera",
   "license": "ISC",
   "dependencies": {
     "node": "^18.10.0",
-    "puppeteer": "^18.2.1"
+    "playwright": "^1.27.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20",
     "standard": "^17.0.0"
   },
   "eslintConfig": {
-    "extends": ["standard"]
+    "extends": [
+      "standard"
+    ]
   }
 }
