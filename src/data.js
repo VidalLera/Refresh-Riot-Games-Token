@@ -1,3 +1,3 @@
 export const email = 'vidalleravalencia@gmail.com'
 export const user = 'vidallera'
-export const password = 'vidallera01'
+export const password = '*****'
